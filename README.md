@@ -8,7 +8,7 @@ You can fork this repo and edit the `index.js`.
 In this file are all functions for the terminal. 
 
 You have to define a `startup` function that is runned when the site is loaded.  
-In the function, I will give you the command line parameters, so you can define a argument and read this. 
+In the function, I will give you the command line parameters, so you can read arguments. 
 
 For example:
 
