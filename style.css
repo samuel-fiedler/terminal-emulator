@@ -1,0 +1,25 @@
+/* FixedSys Excelsior (here „Term“) */
+
+@font-face {
+  font-family: 'Term';
+  font-style: normal;
+  font-weight: 400;
+  src: url(term.woff2) format('woff2');
+}
+
+#terminal {
+  background-color: #000;
+  padding: 1em;
+  height: calc(100vh - 5em);
+  color: #ffffff;
+  width: calc(100vw - 5em);
+  overflow: scroll;
+  font-family: 'Term', monospace;
+}
+h1 ~ #terminal {
+  height: calc(100vh - 10em);
+}
+#terminput {
+  all: unset;
+  width: calc(100% - 15em);
+}
