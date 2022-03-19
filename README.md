@@ -4,7 +4,7 @@ A simple terminal emulator written in JavaScript
 
 ## Usage
 
-You can fork this repl and edit the `index.js`.  
+You can fork this repo and edit the `index.js`.  
 In this file are all functions for the terminal. 
 
 You have to define a `startup` function that is runned when the site is loaded.  
